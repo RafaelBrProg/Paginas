@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="Pagina 2.png">
+  <link rel="stylesheet" href="Pagina 2.css">
+  <title>Calculadora Simples</title>
+</head>
+<body>
+  <div class="container">
+    <img src="Pagina 2.png" alt="Calculadora Simples">
+    <h1>Calculadora Simples</h1>
+    <form id="calculadora">
+      <input type="number" id="n1" placeholder="Digite um número" required>
+      <br><br>
+      <input type="number" id="n2" placeholder="Digite outro número" required>
+      <br><br>
+      <button type="button" onclick="calcular('+')">+</button>
+      <button type="button" onclick="calcular('-')">-</button>
+      <button type="button" onclick="calcular('*')">*</button>
+      <button type="button" onclick="calcular('/')">/</button>
+    </form>
+    <p>Resultado: <span id="resultado">0</span></p>
+  </div>
+  
+  <script src="Pagina 2.js"></script>
+</body>
+</html>
